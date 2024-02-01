@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Study Case</title>
+        <link rel="stylesheet" type="text/css" href="studicase.css">
+        <meta name="viewport" content="width=dvice-width", initial-scale="1.0">
+    </head>
+
+    <body>
+        <h1 id="berhasil"></h1>
+        <script>
+            function showPrompt() {
+                let admin = prompt("Please enter your password");
+                const password = ["myPassword", "12345"];
+
+                if (password.includes(admin)) {
+                    // showHide();
+                    document.getElementById("berhasil").innerHTML = "YEAAAYY Anda berhasil masuk!";
+                }
+                else {
+                    location.replace("https://google.com");
+                }
+            }
+
+            showPrompt();
+        </script>
+    </body>
+</html>
