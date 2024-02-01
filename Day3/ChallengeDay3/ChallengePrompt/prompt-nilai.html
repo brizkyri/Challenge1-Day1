@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Study Case</title>
+        <link rel="stylesheet" type="text/css" href="studicase.css">
+        <meta name="viewport" content="width=dvice-width", initial-scale="1.0">
+    </head>
+
+    <body>
+        <h1 id="h1-1">Selamat datang di Hasil Akhir Ujian Januari 2024</h1>
+
+        <script>
+            function showPrompt() {
+                let nilai = prompt("Masukkan Nilai Anda");
+
+                if (nilai > 80 && nilai <= 100) {
+                    alert("Your Grade is A, yeay!");
+                }
+                else if (nilai >= 60 && nilai < 80){
+                    alert("Your Grade is B, keep it up!");
+                }
+                else if (nilai >= 40 && nilai < 60){
+                    alert("Your Grade is C, study more!");
+                }
+                else if (nilai <40){
+                    alert("Your Grade is D, please study!");
+                }
+                else {
+                    alert("We Cannot Calculate your grade, please re-enter")
+                }
+            }
+            showPrompt();
+        </script>
+    </body>
+</html>
