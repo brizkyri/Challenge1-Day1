@@ -1,0 +1,72 @@
+body {
+    background-color: black;
+}
+
+.container {
+    display: flex;
+    gap: 0 16px;
+}
+
+.left-side {
+    height: 100%;
+    width: 100%
+  }
+
+  .left-side-img {
+    padding-left: 50px;
+    padding-top: 150px;
+    padding-right: 25px;
+    height: 100%;
+    width: 80%;
+  }
+
+  .right-side {
+      background-color: whitesmoke;
+      height: 750px;
+      width: 80%;
+  }
+
+  .checkout{
+      padding-top: 30px;
+      font-size: 30px;
+      text-align: center;
+      color: black;
+      padding-bottom: 50px;
+  }
+
+  .form-text{
+      width: 515px;
+      margin-left: 50px;
+      margin-bottom: 10px;
+      border: 1px solid black;
+      line-height: 2;
+      border-radius: 5px;
+      padding-bottom: 10px;
+  }
+
+  .expiry-date{
+    width: 250px;
+    margin-left: 50px;
+    margin-bottom: 10px;
+    border: 1px solid black;
+    line-height: 2;
+    border-radius: 5px;
+    padding-bottom: 10px;
+  }
+
+  .cvv{
+    margin-left: 5px;
+    margin-bottom: 10px;
+    width: 250px;
+    border: 1px solid black;
+    line-height: 2;
+    border-radius: 5px;
+    padding-bottom: 10px;
+  }
+
+  .button{
+      width: 515px;
+      margin-left: 50px;
+      padding: 10px;
+      border-radius: 7px;
+  }
